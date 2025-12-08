@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Custom Colors */
+    --navy: 217 35% 11%;
+    /* #0a192f */
+    --light-navy: 217 35% 16%;
+    /* #112240 */
+    --lightest-navy: 217 35% 23%;
+    /* #233554 */
+    --slate: 223 19% 61%;
+    /* #8892b0 */
+    --light-slate: 223 29% 74%;
+    /* #a8b2d1 */
+    --lightest-slate: 225 70% 95%;
+    /* #ccd6f6 */
+    --white: 210 100% 95%;
+    /* #e6f1ff */
+    --green: 166 100% 70%;
+    /* #64ffda */
+
+    /* Shadcn Mapping */
+    --background: var(--navy);
+    --foreground: var(--slate);
+
+    --card: var(--navy);
+    --card-foreground: var(--slate);
+
+    --popover: var(--navy);
+    --popover-foreground: var(--slate);
+
+    --primary: var(--green);
+    --primary-foreground: var(--navy);
+
+    --secondary: var(--light-navy);
+    --secondary-foreground: var(--green);
+
+    --muted: var(--light-navy);
+    --muted-foreground: var(--slate);
+
+    --accent: var(--light-navy);
+    --accent-foreground: var(--green);
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: var(--lightest-navy);
+    --input: var(--lightest-navy);
+    --ring: var(--green);
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-inter), sans-serif;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a192f;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #495670;
+  border: 3px solid #0a192f;
+  border-radius: 10px;
+}
+
+/* Selection */
+::selection {
+  background-color: #233554;
+  color: #64ffda;
+}
