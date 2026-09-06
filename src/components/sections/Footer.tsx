@@ -1,13 +1,23 @@
-import React from 'react';
+import React from "react";
 
 const Footer = () => {
-    return (
-        <footer className="max-w-md pb-16 text-sm text-slate sm:pb-0">
-            <p>
-                Loosely designed in Figma and coded in Visual Studio Code by yours truly. Built with Next.js and Tailwind CSS, deployed with Vercel. All text is set in the Inter typeface.
-            </p>
-        </footer>
-    );
+  const currentYear = new Date().getFullYear();
+
+  return (
+    <footer className="max-w-md pb-16 text-sm text-slate-400 sm:pb-0 space-y-6">
+      <div className="space-y-4 leading-relaxed">
+        <p className="font-medium text-teal-500/80 italic border-l-2 border-teal-500/50 pl-4 py-1">
+          "Architecting scalable solutions and building the future, one line of
+          code at a time."
+        </p>
+      </div>
+
+      <div className="flex flex-wrap items-center justify-between pt-4 border-t border-slate-800/60 text-xs text-slate-500">
+        <p>&copy; {currentYear} All rights reserved.</p>
+        <p>Rajshahi, Bangladesh</p>
+      </div>
+    </footer>
+  );
 };
 
 export default Footer;

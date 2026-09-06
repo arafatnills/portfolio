@@ -28,8 +28,8 @@ const About = () => {
       >
         <p className="mb-4">
           I am a dedicated full-stack developer with a strong focus on{" "}
-          <b className=" text-white"> backend architecture </b>, specializing in
-          Node.js, Express.js, PostgreSQL, and MongoDB. I have successfully
+          <b className=" text-white"> backend architecture </b>, specializing in 
+          <b className=" text-white"> Node.js</b>, <b className=" text-white">Express.js</b>, <b className=" text-white">PostgreSQL</b>, and <b className=" text-white">MongoDB</b>. I have successfully
           built scalable RESTful APIs and secure data pipelines for projects
           like <b className=" text-white">Digital Life Lessons</b>,{" "}
           <b className=" text-white">GadgetGalaxy</b> and{" "}
