@@ -36,7 +36,39 @@ Advanced Discovery: Improved browsing performance with server-side pagination, m
     ],
     date: "December 2025",
   },
-
+  {
+    slug: "NeelNir",
+    title: "NeelNir",
+    url: "https://my-shop-v2-eight.vercel.app",
+    client: "https://github.com/arafatnills/neelNir-client",
+    backend: "https://github.com/arafatnills/neelNir-server",
+    image: "/images/neelNir.png",
+    description: `A full-featured e-commerce platform built with Next.js and TypeScript for a fashion brand, featuring a bilingual (Bangla/English) storefront, real-time order tracking, and an admin panel for product and order management.
+`,
+    fullDescription: `A full-featured e-commerce platform built with Next.js and TypeScript for a fashion brand, featuring a bilingual (Bangla/English) storefront, real-time order tracking, and an admin panel for product and order management.
+Order Tracking System: Built a real-time shipment tracking flow where customers enter an order ID to view a live progress timeline (Placed, Processing, Shipped, In Transit, Delivered) alongside order details and total amount.
+Admin Panel: Developed an admin dashboard for managing products, categories, and orders with secure CRUD operations, powering the storefront's collections and inventory.
+Product Discovery: Implemented live search with instant autocomplete suggestions, advanced shop filtering (category, price range, color), and a curated collections page across 10+ categories.
+`,
+    features: [
+      "Bilingual (Bangla/English) e-commerce storefront built with Next.js and TypeScript",
+      "Real-time order tracking system with live progress timeline via Order ID",
+      "Secure admin dashboard for managing products, categories, and orders (CRUD)",
+      "Live search functionality with instant autocomplete suggestions",
+      "Advanced product filtering system (category, price range, and color)",
+    ],
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "NextAuth.js",
+      "shadcn/ui",
+      "Framer Motion",
+      "Lenis",
+      "Nodemailer",
+    ],
+    date: "April 2026",
+  },
   {
     slug: "travelease",
     title: "TravelEase",
@@ -64,27 +96,6 @@ Advanced Discovery: Improved browsing performance with server-side pagination, m
       "Axios",
       "Firebase",
     ],
-    date: "November 2025",
-  },
-
-  {
-    slug: "gadget-galaxy",
-    title: "GadgetGalaxy",
-    url: "https://gadget-galaxy-client.vercel.app/",
-    repo: "https://github.com/CodeWithArafat1/GadgetGalaxy-client",
-    image: "/images/p1.png",
-    description:
-      "Developed a quick, user-friendly interface with infinite scrolling, optimizing data handling for a smooth shopping experience. Solved role-based visualization and authentication issues.",
-    fullDescription:
-      "GadgetGalaxy is a comprehensive e-commerce platform designed for tech enthusiasts. It features a responsive design, real-time data updates, and a secure authentication system. The project focuses on delivering a seamless shopping experience through optimized performance and intuitive UI.",
-    features: [
-      "Real-time cart and wishlist with TanStack Query",
-      "Optimistic updates and background refetching",
-      "Advanced product filtering with infinite scroll",
-      "Role-based dashboard for administrators",
-      "Secure CRUD operations for inventory management",
-    ],
-    tech: ["React", "TanStack Query", "Tailwind CSS", "Node.js", "MongoDB"],
     date: "November 2025",
   },
 ];
