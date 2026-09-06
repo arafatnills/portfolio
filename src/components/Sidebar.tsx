@@ -60,11 +60,9 @@ const Sidebar = () => {
           I build modern, responsive and scalable web applications that deliver
           great user experiences.
         </motion.p>
-
-        <div className="mt-6">
+        <div className="mt-6 hidden lg:flex">
           <ResumeButton />
         </div>
-
         <nav
           className="nav hidden lg:block mt-16"
           aria-label="In-page jump links"
@@ -147,6 +145,10 @@ const Sidebar = () => {
           </a>
         </li>
       </motion.ul>
+
+      <div className="mt-6 lg:hidden">
+        <ResumeButton />
+      </div>
     </header>
   );
 };

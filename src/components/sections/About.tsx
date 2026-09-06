@@ -28,11 +28,14 @@ const About = () => {
       >
         <p className="mb-4">
           I am a dedicated full-stack developer with a strong focus on{" "}
-          <b className=" text-white"> backend architecture </b>, specializing in 
-          <b className=" text-white"> Node.js</b>, <b className=" text-white">Express.js</b>, <b className=" text-white">PostgreSQL</b>, and <b className=" text-white">MongoDB</b>. I have successfully
-          built scalable RESTful APIs and secure data pipelines for projects
-          like <b className=" text-white">Digital Life Lessons</b>,{" "}
-          <b className=" text-white">GadgetGalaxy</b> and{" "}
+          <b className=" text-white"> backend architecture </b>, specializing in
+          <b className=" text-white"> Node.js</b>,{" "}
+          <b className=" text-white">Express.js</b>,{" "}
+          <b className=" text-white">PostgreSQL</b>, and{" "}
+          <b className=" text-white">MongoDB</b>. I have successfully built
+          scalable RESTful APIs and secure data pipelines for projects like{" "}
+          <b className=" text-white">Digital Life Lessons</b>,{" "}
+          <b className=" text-white">NeelNir</b> and{" "}
           <b className=" text-white">TravelEase</b>, ensuring robust{" "}
           <b className=" text-white">CRUD </b>
           operations, <b className=" text-white">JWT </b>authentication, and
@@ -44,8 +47,9 @@ const About = () => {
           <b className=" text-white"> Next.js</b> and{" "}
           <b className=" text-white">Tailwind CSS </b> to deliver complete
           end-to-end solutions, my core expertise lies in architecting secure,
-          efficient <b className=" text-white">server-side logic</b>. I am deeply passionate about solving
-          complex backend challenges, <b className=" text-white">optimizing database</b> performance, and
+          efficient <b className=" text-white">server-side logic</b>. I am
+          deeply passionate about solving complex backend challenges,{" "}
+          <b className=" text-white">optimizing database</b> performance, and
           building reliable applications that scale.
         </p>
 
