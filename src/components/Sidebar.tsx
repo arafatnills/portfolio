@@ -32,7 +32,7 @@ const Sidebar = () => {
     }, []);
 
     return (
-        <header className="lg:fixed lg:top-0 lg:left-0 lg:h-screen lg:w-1/2 lg:flex lg:flex-col lg:justify-between lg:py-24 lg:px-24 p-12">
+        <header className="lg:fixed lg:top-0 lg:left-0 lg:h-screen lg:w-1/2 lg:flex lg:flex-col lg:justify-between lg:py-24 lg:px-24 ">
             <div>
                 <motion.h1
                     initial={{ opacity: 0, y: 20 }}
@@ -40,7 +40,7 @@ const Sidebar = () => {
                     transition={{ duration: 0.5 }}
                     className="text-4xl sm:text-5xl font-bold text-lightest-slate tracking-tight"
                 >
-                    <Link href="/">Md Arafat Ali</Link>
+                    <Link href="/">Arafat Nill</Link>
                 </motion.h1>
                 <motion.h2
                     initial={{ opacity: 0, y: 20 }}
@@ -56,7 +56,7 @@ const Sidebar = () => {
                     transition={{ duration: 0.5, delay: 0.2 }}
                     className="mt-4 max-w-xs leading-normal text-slate"
                 >
-                    Experienced full-stack developer specializing in the MERN stack, Next.js, and Tailwind CSS.
+                    I build modern, responsive and scalable web applications that deliver great user experiences.
                 </motion.p>
 
                 <nav className="nav hidden lg:block mt-16" aria-label="In-page jump links">
@@ -91,7 +91,7 @@ const Sidebar = () => {
                 aria-label="Social media"
             >
                 <li className="text-2xl text-slate hover:text-lightest-slate transition-colors">
-                    <a href="https://github.com/CodeWithArafat1" target="_blank" rel="noreferrer" aria-label="GitHub">
+                    <a href="https://github.com/arafatnills" target="_blank" rel="noreferrer" aria-label="GitHub">
                         <FaGithub />
                     </a>
                 </li>

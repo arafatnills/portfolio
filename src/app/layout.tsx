@@ -6,8 +6,8 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const firaCode = Fira_Code({ subsets: ["latin"], variable: "--font-fira-code" });
 
 export const metadata: Metadata = {
-    title: "Md Arafat Ali | Full-Stack Developer",
-    description: "Experienced full-stack developer specializing in the MERN stack, Next.js, and Tailwind CSS.",
+    title: "Arafat Nill | Full-Stack Developer",
+    description: "I build modern, responsive and scalable web applications that deliver great user experiences.",
 };
 
 import CursorSpotlight from "@/components/ui/CursorSpotlight";

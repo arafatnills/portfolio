@@ -44,15 +44,23 @@ export default async function ProjectDetails({ params }: PageProps) {
                         rel="noreferrer"
                         className="flex items-center gap-2 px-4 py-2 border border-green text-green rounded hover:bg-green/10 transition-colors"
                     >
-                        <FaExternalLinkAlt /> Live Demo
+                        <FaExternalLinkAlt /> Live URL
                     </a>
                     <a
-                        href={project.repo}
+                        href={project.client}
                         target="_blank"
                         rel="noreferrer"
                         className="flex items-center gap-2 px-4 py-2 border border-slate text-slate rounded hover:border-lightest-slate hover:text-lightest-slate transition-colors"
                     >
-                        <FaGithub /> View Code
+                        <FaGithub /> Client
+                    </a>
+                    <a
+                        href={project.backend}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="flex items-center gap-2 px-4 py-2 border border-slate text-slate rounded hover:border-lightest-slate hover:text-lightest-slate transition-colors"
+                    >
+                        <FaGithub /> Server
                     </a>
                 </div>
 
