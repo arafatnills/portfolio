@@ -1,10 +1,11 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
-import Link from "next/link";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { motion } from "framer-motion";
+import Link from "next/link";
+import { useEffect, useState } from "react";
+import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 import ResumeButton from "./GetResume";
+import Profile from "./Profile";
 
 const navLinks = [
   { name: "About", url: "/#about" },
@@ -35,6 +36,14 @@ const Sidebar = () => {
   return (
     <header className="lg:fixed lg:top-0 lg:left-0 lg:h-screen lg:w-1/2 lg:flex lg:flex-col lg:justify-between lg:py-24 lg:px-24 ">
       <div>
+       <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          <Profile />
+        </motion.div>
+
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -43,6 +52,7 @@ const Sidebar = () => {
         >
           <Link href="/">Arafat Nill</Link>
         </motion.h1>
+
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

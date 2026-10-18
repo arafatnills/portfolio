@@ -1,14 +1,13 @@
-import React from "react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="max-w-md pb-16 text-sm text-slate-400 sm:pb-0 space-y-6">
+    <footer className="full pb-16 text-sm text-slate-400 sm:pb-0 space-y-6">
       <div className="space-y-4 leading-relaxed">
         <p className="font-medium text-teal-500/80 italic border-l-2 border-teal-500/50 pl-4 py-1">
-          "Architecting scalable solutions and building the future, one line of
-          code at a time."
+          `Architecting scalable solutions and building the future, one line of
+          code at a time.`
         </p>
       </div>
 

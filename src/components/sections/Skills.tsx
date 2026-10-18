@@ -1,8 +1,7 @@
 "use client";
 
-import React from "react";
-import { motion } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
+import { motion } from "framer-motion";
 
 const skillsData = [
   {
@@ -33,6 +32,7 @@ const skillsData = [
       "Prisma ORM",
       "EJS",
       "JWT",
+      "redis",
     ],
   },
   {
